@@ -1,0 +1,11 @@
+services:
+  - type: web  # or "worker" ← botならworkerの方が適切
+    name: discord-bot
+    env: python
+    plan: free
+    autoDeploy: true
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: DISCORD_TOKEN
+        value: YOUR_BOT_TOKEN  # 実際はRender上で設定するのが安全
