@@ -1,0 +1,5 @@
+discord-bot/
+├── bot.py
+├── requirements.txt
+├── .env (使わない場合は環境変数にRenderで設定)
+├── render.yaml（←自動デプロイ設定ファイル）
