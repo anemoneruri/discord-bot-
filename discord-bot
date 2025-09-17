@@ -2,5 +2,5 @@ discord-bot-/（リポジトリ名）
 ├── bot.py
 ├── requirements.txt
 ├── render.yaml
-├── .env（← .gitignoreで無視）
+├── .env
 └── README.md
