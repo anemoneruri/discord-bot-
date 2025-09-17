@@ -1,5 +1,5 @@
 services:
-  - type: web  # or "worker" ← botならworkerの方が適切
+  - type: web  # or "worker"
     name: discord-bot
     env: python
     plan: free
@@ -8,4 +8,4 @@ services:
     startCommand: python bot.py
     envVars:
       - key: DISCORD_TOKEN
-        value: YOUR_BOT_TOKEN  # 実際はRender上で設定するのが安全
+        value: YOUR_BOT_TOKEN
