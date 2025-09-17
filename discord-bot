@@ -1,5 +1,6 @@
-discord-bot/
+discord-bot-/（リポジトリ名）
 ├── bot.py
 ├── requirements.txt
-├── .env (使わない場合は環境変数にRenderで設定)
-├── render.yaml（←自動デプロイ設定ファイル）
+├── render.yaml
+├── .env（← .gitignoreで無視）
+└── README.md
